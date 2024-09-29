@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size:xx-large
+}
+
+button{
+    margin: 250px;
+    font-size: 75px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+#easteregg{
+    display: flex;
+    justify-content: space-between;
+}
+
+#eastereggText{
+    color: white;
+}
+
+footer{
+    font-size: 25px;
+    margin-top: 200px;
+}
