@@ -1,11 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-size: xx-large;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: yellow;
+}
+
 h1 {
     color: red;
     text-align: center;
-    font-size:xx-large
+    font-size:xx-large;
 }
 
+#menu{
+    border-width: 30px;
+    border-style: solid;
+    border-color: blue;
+}
+
+#uploadBar{
+    text-align: center;
+}
+
+
 button{
-    margin: 250px;
+    margin: 150px;
     font-size: 75px;
 }
 
@@ -21,6 +46,28 @@ button{
 
 #eastereggText{
     color: white;
+}
+
+
+
+/* menu ends roughly*/
+
+#intake{
+    margin-top: 1000px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: green;
+}
+
+#expenditure{
+    margin-top: 1000px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: red;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
 }
 
 footer{

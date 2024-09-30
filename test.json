@@ -1,0 +1,28 @@
+{
+  "global": {},
+  "items": [
+    {
+      "id": "uniqueItemId",
+      "name": "Item Name",
+      "quantity": 0,
+      "history": [
+        {
+          "timestamp": "ISOStringDate",
+          "type": "in/out",
+          "quantity": 0,
+        }
+        // ... more history entries
+      ]
+    }
+    // ... more items
+  ],
+  "transactions": [
+    {
+      "itemId": "uniqueItemId",
+      "timestamp": "ISOStringDate",
+      "quantity": 0,
+      "type": "in/out",
+    }
+    // ... more transactions
+  ]
+}
