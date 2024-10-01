@@ -8,412 +8,429 @@
       "history": []
     },
     { "id": "1",
-      "name": "'400'",
+      "name": "'400' 80x80 [Kocsi/Donorcímke]",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "2",
+      "name": "'200' 150x80 [Doboz címke]",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "3",
+      "name": "'1000' [Mintacső]",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "4",
+      "name": "'100' [Donorkártya címke]",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "5",
+      "name": "'500' [Donorkártya címke]",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "6",
+      "name": "NAT Fehér",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "7",
+      "name": "Vacuette Luer Adapter",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "8",
+      "name": "Greiner Standard Tube Holder [Vérvételi Harang]",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "9",
+      "name": "Omnisilk",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "10",
+      "name": "Peha Haft",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "11",
+      "name": "Pur Zellin",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "12",
+      "name": "BD Vacutainer",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "13",
+      "name": "Brado Clean 1L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "14",
+      "name": "Brado Clear 1L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "15",
+      "name": "Bradogél 500 ML",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "16",
+      "name": "Bradogél 1L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "17",
+      "name": "Brado Plus 1L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]}, 
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    }, 
+    { "id": "18",
+      "name": "Brado Plus 250ML",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "19",
+      "name": "Bradosept 1L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "20",
+      "name": "Bradosept 5L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "21",
+      "name": "Köppeny",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "22",
+      "name": "Eltra",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-    "name": "Item Name",
+      "history": []
+    },
+    { "id": "23",
+    "name": "IMI Orange 1L",
     "quantity": 0,
-    "history": [
-      {
-        "timestamp": "ISOStringDate",
-        "type": "in/out",
-        "quantity": 0
-      }
-    ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+   "history": []
+  },
+    { "id": "24",
+      "name": "Kesztyű S",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "25",
+      "name": "Kesztyű S - púdermentes-latex-allergén",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "26",
+      "name": "Kesztyű M",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-    "name": "Item Name",
+      "history": []
+    },
+    { "id": "27",
+    "name": "Kesztyű M - púdermentes-latex-allergén",
     "quantity": 0,
-    "history": [
-      {
-        "timestamp": "ISOStringDate",
-        "type": "in/out",
-        "quantity": 0
-      }
-    ]}, 
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+    "history": []
+  }, 
+    { "id": "28",
+      "name": "Kesztyű L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+     "history": []
+    },
+    { "id": "29",
+      "name": "Kesztyű XL",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "30",
+      "name": "Lábzsák",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "31",
+      "name": "Skinman Soft N/Plus 500ML",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "32",
+      "name": "Skinsan Scrub",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "33",
+      "name": "Sekusept Aktív",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "34",
+      "name": "Szájmaszk",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "35",
+      "name": "Melsept SF 1L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "36",
+      "name": "Mikrozid AF 1L",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "37",
+      "name": "Mikrozid törlőkendő doboz",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "38",
+      "name": "Mikrozid doboz utántöltő",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "39",
+      "name": "Mikrozid AF Jumbo törlőkendő dobozos (220)",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]},
-    { "id": "uniqueItemId",
-      "name": "Item Name",
+      "history": []
+    },
+    { "id": "40",
+      "name": "Mikrozid Szórófej",
       "quantity": 0,
-      "history": [
-        {
-          "timestamp": "ISOStringDate",
-          "type": "in/out",
-          "quantity": 0
-        }
-      ]}
-  ],
-  "transactions": [
-    {
-      "itemId": "uniqueItemId",
-      "timestamp": "ISOStringDate",
+      "history": []
+    },
+    { "id": "41",
+      "name": "Papírlepedő",
       "quantity": 0,
-      "type": "in/out"
-    }
-  ]
+      "history": []
+    },
+    { "id": "42",
+      "name": "Hányó Zacskó",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "43",
+      "name": "Infúziós Szerelék",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "44",
+      "name": "21G-s Tű",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "45",
+      "name": "Vérvételi Harang",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "46",
+      "name": "Élvédő",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "47",
+      "name": "Plazmás kartondoboz",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "48",
+      "name": "NAT kartonhoz nylon",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "49",
+      "name": "Plazmás kartonhoz nylon",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "50",
+      "name": "Biztonsági tű 21G (85.1162.200)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "51",
+      "name": "S monovette 4.9ML EDTA Fehér (04.1926.001)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "52",
+      "name": "S monovette 4.9ML EDTA Piros (04.1931.001)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "53",
+      "name": "S monovette 4.9ML EDTA Lila (04.1931.100)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "54",
+      "name": "S monovette 4.9ML EDTA Zöld (04.1931.005)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "55",
+      "name": "Cellpack 20L",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "56",
+      "name": "Cellclean 50ML",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "57",
+      "name": "Hőpapír",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "58",
+      "name": "Kontrollvér LOW",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "59",
+      "name": "Kontrollvér NORMAL",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "60",
+      "name": "Stromatolyser",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "61",
+      "name": "NAT Hungarocell",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "62",
+      "name": "Szerelék (ZBK)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "63",
+      "name": "Szerelék (417)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "64",
+      "name": "Kanül (Syslock needle)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "65",
+      "name": "Kanül (JMS A.V Fistula Needle)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "66",
+      "name": "Sodium Citrate 4%",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "67",
+      "name": "Szerelék (P-5000)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "68",
+      "name": "Meise Palack",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "69",
+      "name": "Barna ragasztószalag",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "70",
+      "name": "Raklapfólia",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "71",
+      "name": "Gumigyűrű",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "72",
+      "name": "Lucart Strong 19J JUMBO wcpapír (12/csomag) (812202)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "73",
+      "name": "Lucart Strong 140A henger (6/csomag)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "74",
+      "name": "Lucart Strong 155ID törlőpapír férfi mosdó (6/csomag)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "75",
+      "name": "Optimum Z 200",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "76",
+      "name": "Tork folyékony szappan",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "77",
+      "name": "Lucart Strong (811C08) WC papír (24/csomag)",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "78",
+      "name": "Tork illatosító",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "79",
+      "name": "Veszélyes hulladék kanna",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "80",
+      "name": "Veszélyes hulladék vödör 2L",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "81",
+      "name": "Veszélyes hulladék vödör 5L",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "82",
+      "name": "Veszélyes hulladék vödör 10L",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "83",
+      "name": "Veszélyes hulladék vödör 20L",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "84",
+      "name": "Veszélyes hulladék zsák",
+      "quantity": 0,
+      "history": []
+    },
+    { "id": "85",
+      "name": "Vizes ballon",
+      "quantity": 0,
+      "history": []
+    }],
+  "transactions": []
 }
