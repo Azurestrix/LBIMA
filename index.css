@@ -28,7 +28,6 @@ h1 {
     text-align: center;
 }
 
-
 button{
     margin: 150px;
     font-size: 75px;
@@ -37,6 +36,30 @@ button{
 #buttons{
     display: flex;
     flex-direction: column;
+}
+
+#display{
+    font-size: xx-large;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+table, td, th{
+    padding: 10px;
+    margin: 1px;
+    border: 3px solid black; 
+}
+
+label{
+    font-size: xx-large;
+}
+
+form{
+    font-size: xx-large;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #easteregg{
@@ -53,14 +76,14 @@ button{
 /* menu ends roughly*/
 
 #intake{
-    margin-top: 1000px;
+    margin-top: 500px;
     border-width: 30px;
     border-style: solid;
     border-color: green;
 }
 
 #expenditure{
-    margin-top: 1000px;
+    margin-top: 500px;
     border-width: 30px;
     border-style: solid;
     border-color: red;
@@ -69,7 +92,11 @@ h2{
     text-align: center;
     font-size: xx-large;
 }
-
+ #download{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+ }
 footer{
     font-size: 25px;
     margin-top: 200px;
