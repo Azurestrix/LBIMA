@@ -1,7 +1,9 @@
 body, html {
-    display: flex;
+    /* display: flex; */
     margin: 0;
     padding: 0;
+    width: 100%;
+    /* justify-items: center; */
 }
 
 nav{
@@ -31,7 +33,7 @@ h1 {
 
 button{
     margin: 150px;
-    font-size: 75px;
+    font-size: 25px;
 }
 
 #buttons{
@@ -89,6 +91,7 @@ form{
     border-style: solid;
     border-color: red;
 }
+
 h2{
     text-align: center;
     font-size: xx-large;
