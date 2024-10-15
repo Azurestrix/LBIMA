@@ -6,14 +6,7 @@ body, html {
     /* justify-items: center; */
 }
 
-nav{
-    font-size: xx-large;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    background-color: yellow;
-}
+
 
 h1 {
     color: red;
@@ -21,25 +14,11 @@ h1 {
     font-size:xx-large;
 }
 
-#menu{
-    border-width: 30px;
-    border-style: solid;
-    border-color: blue;
-}
 
 #uploadBar{
     text-align: center;
 }
 
-button{
-    margin: 150px;
-    font-size: 25px;
-}
-
-#buttons{
-    display: flex;
-    flex-direction: column;
-}
 
 #display{
     font-size: xx-large;
@@ -58,12 +37,6 @@ label{
     font-size: xx-large;
 }
 
-form{
-    font-size: xx-large;
-    margin: 20px;
-    display: flex;
-    justify-content: space-evenly;
-}
 
 #easteregg{
     display: flex;
@@ -78,24 +51,6 @@ form{
 
 /* menu ends roughly*/
 
-#intake{
-    margin-top: 500px;
-    border-width: 30px;
-    border-style: solid;
-    border-color: green;
-}
-
-#expenditure{
-    margin-top: 500px;
-    border-width: 30px;
-    border-style: solid;
-    border-color: red;
-}
-
-h2{
-    text-align: center;
-    font-size: xx-large;
-}
  #download{
     margin-top: 100px;
     display: flex;

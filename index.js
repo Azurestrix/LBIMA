@@ -57,11 +57,37 @@ function displayItems(globalJSON){
          // Create the Quantity cell (td)
          const quantityCell = document.createElement('td');
          quantityCell.textContent = item.quantity;
+
+         // Create intake for current item cell 
+         const intakeCell = document.createElement('td');
+         const intakeInput = document.createElement('input');
+         intakeInput.setAttribute('type', 'number');
+         intakeInput.setAttribute('data-id', item.id);
+         intakeInput.addEventListener('blur', function(event)
+        {
+            intakeJS(event)
+        });
+         intakeCell.appendChild(intakeInput);
+
+        
+         // Create expend for current item cell 
+         const expendCell = document.createElement('td');
+         const expendInput = document.createElement('input'); 
+         expendInput.setAttribute('type', 'number'); 
+         expendInput.setAttribute('data-id', item.id);
+         expendInput.addEventListener('blur', function(event)
+        {
+            intakeJS(event)
+        });
+         expendCell.appendChild(expendInput);
+
  
-         // Append the cells to the row
+         // Append the cells to the row  --
          newRow.appendChild(idCell);
          newRow.appendChild(idName);
          newRow.appendChild(quantityCell);
+         newRow.appendChild(intakeCell);
+         newRow.appendChild(expendCell);
  
          // Append the row to the table body
          displayTable.appendChild(newRow);
@@ -76,21 +102,14 @@ function displayItems(globalJSON){
 
 function intakeJS(event)
 {
-    // Stops default fucntion so global variable does not get wiped
-    event.preventDefault();
-    // First get a reference to the input element Azonosító 0-1-2-3-4-5
-    const itemIdInput = document.getElementById('intakeItemInputId');
-    // Then, get the value from the input
-    const itemIdValue = parseInt(itemIdInput.value, 10);
-    //console.log(itemIdValue)
+    // Get the data-id
+    const currentEvent = event.target;
+    const currentEventData = currentEvent.getAttribute('data-id');
 
-    // Mennyiség
-    const quantityInputId = document.getElementById('intakeQuantityInputId');
-    const quantityValue = parseInt(quantityInputId.value, 10);
-    //console.log(quantityValue)
+    console.log(currentEventData)
 
-    globalJSON.items[itemIdValue].quantity += quantityValue;
-    displayItems(globalJSON);
+
+    
 
 }
 
@@ -121,7 +140,7 @@ function expendJS(event)
 {
 
     // Stops default fucntion so global variable does not get wiped
-    event.preventDefault();
+    //event.preventDefault();
     // First get a reference to the input element Azonosító 0-1-2-3-4-5
     const itemIdInput = document.getElementById('expendItemInputId');
     // Then, get the value from the input

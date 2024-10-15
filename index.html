@@ -7,12 +7,6 @@
     <title>LBIMA</title>
 </head>
 <body>
-    <nav>
-        <a href="#menu">Fájl feltöltés</a>
-        <a href="#intake">Bevételezés</a>
-        <a href="#expenditure">Kiadás</a>
-        <a href="#download">Letölés</a>
-    </nav>
     <section id="menu">
         <h1>Low Budget Inventory Management App</h1>
         <div id="buttons">
@@ -35,6 +29,8 @@
                     <th>ID</th>
                     <th>Anyag</th>
                     <th>Mennyiség</th>
+                    <th>Bevételezés</th>
+                    <th>Kiadás</th>
                 </tr>
             </thead>
             <tbody id="displayTable">
@@ -46,38 +42,6 @@
         
     </section>
 
-
-    <section id="intake">
-        <h2>Bevételezés</h2>
-
-        <form id="intakeForm" onsubmit="intakeJS(event)"><!-- so that it does not wipe global and the whole form is connected -->
-            <fieldset>
-              <label for="itemIdInput">Azonosító:</label>
-              <input type="number" id="intakeItemInputId" required>
-              
-              <label for="quantityInput">Mennyiség:</label>
-              <input type="number" id="intakeQuantityInputId" required>
-              
-              <button type="submit">Bevételezés</button>
-            </fieldset>
-          </form>
-    </section>
-
-    <section id="expenditure">
-        <h2>Kiadás</h2>
-
-        <form id="expenditureForm" onsubmit="expendJS(event)">
-            <fieldset>
-              <label for="itemIdInput">Azonosító:</label>
-              <input type="number" id="expendItemInputId" required>
-              
-              <label for="quantityInput">Mennyiség:</label>
-              <input type="number" id="expendQuantityInputId" required>
-              
-              <button type="submit">Kiadás</button>
-            </fieldset>
-          </form>
-    </section>
 
 
     <section id="download" onclick="downloadJSON()">
