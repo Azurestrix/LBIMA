@@ -35,8 +35,32 @@ function readJSON() {
 // top menu end
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // dispaly
 function displayItems(globalJSON){
+
+
 
     const displayTable = document.getElementById('displayTable');
     displayTable.innerHTML = '';
@@ -65,7 +89,7 @@ function displayItems(globalJSON){
          intakeInput.setAttribute('data-id', item.id);
          intakeInput.addEventListener('blur', function(event)
         {
-            intakeJS(event)
+                intakeJS(event);
         });
          intakeCell.appendChild(intakeInput);
 
@@ -77,9 +101,20 @@ function displayItems(globalJSON){
          expendInput.setAttribute('data-id', item.id);
          expendInput.addEventListener('blur', function(event)
         {
-            intakeJS(event)
+                expendJS(event);
         });
          expendCell.appendChild(expendInput);
+
+         // Create change value to
+         const changeCell = document.createElement('td');
+         const changeInput = document.createElement('input');
+         changeInput.setAttribute('type', 'number');
+         changeInput.setAttribute('data-id', item.id);
+         changeInput.addEventListener('blur', function(event)
+         {
+            changeJS(event);
+         });
+         changeCell.appendChild(changeInput);
 
  
          // Append the cells to the row  --
@@ -87,7 +122,11 @@ function displayItems(globalJSON){
          newRow.appendChild(idName);
          newRow.appendChild(quantityCell);
          newRow.appendChild(intakeCell);
+         intakeCell.style.border = 'solid green'
          newRow.appendChild(expendCell);
+         expendCell.style.border = 'solid red'
+         newRow.appendChild(changeCell);
+        changeCell.style.border = 'solid yellow'
  
          // Append the row to the table body
          displayTable.appendChild(newRow);
@@ -95,6 +134,19 @@ function displayItems(globalJSON){
     });
 }
 // display end
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -106,15 +158,56 @@ function intakeJS(event)
     const currentEvent = event.target;
     const currentEventData = currentEvent.getAttribute('data-id');
 
-    console.log(currentEventData)
+    // Get the quantity
+    const itemQuantity = parseInt(currentEvent.value, 10)
+    //console.log(itemQuantity)
+    //console.log(currentEventData)
 
+    if (!isNaN(itemQuantity))
+        {
+            // Update data
+            globalJSON.items[currentEventData].quantity += itemQuantity;
 
-    
+            const currentDate = new Date();
+            const formattedDate = currentDate.toISOString().split('T')[0]; // Get YYYY-MM-DD
 
+            // Write transaction object
+            transactionItem = 
+            {
+                itemID: currentEventData,
+                name: globalJSON.items[currentEventData].name,
+                timestamp: formattedDate,
+                quantity: itemQuantity,
+                type: 'in'
+            }
+
+            // Write to transactions array
+            globalJSON.transactions.push(transactionItem); 
+            
+            //console.log(transactionItem)
+
+            displayItems(globalJSON);
+        }
+    else{}
 }
-
-
 // intake end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -138,25 +231,110 @@ function intakeJS(event)
 //expend
 function expendJS(event)
 {
+    // Get the data-id
+    const currentEvent = event.target;
+    const currentEventData = currentEvent.getAttribute('data-id');
 
-    // Stops default fucntion so global variable does not get wiped
-    //event.preventDefault();
-    // First get a reference to the input element Azonosító 0-1-2-3-4-5
-    const itemIdInput = document.getElementById('expendItemInputId');
-    // Then, get the value from the input
-    const itemIdValue = parseInt(itemIdInput.value, 10);
-    //console.log(itemIdValue)
+    // Get the quantity
+    const itemQuantity = parseInt(currentEvent.value, 10)
+    //console.log(itemQuantity)
+    //console.log(currentEventData)
 
-    // Mennyiség
-    const quantityInputId = document.getElementById('expendQuantityInputId');
-    const quantityValue = parseInt(quantityInputId.value, 10);
-    //console.log(quantityValue)
 
-    globalJSON.items[itemIdValue].quantity -= quantityValue;
-    displayItems(globalJSON);
+    if (!isNaN(itemQuantity))
+        {
+
+            const currentDate = new Date();
+            const formattedDate = currentDate.toISOString().split('T')[0]; // Get YYYY-MM-DD
+
+            // Write transaction object
+            transactionItem = 
+            {
+                itemID: currentEventData,
+                name: globalJSON.items[currentEventData].name,
+                timestamp: formattedDate,
+                quantity: itemQuantity,
+                type: 'out'
+            }
+
+            // Write to transactions array
+            globalJSON.transactions.push(transactionItem); 
+
+
+            globalJSON.items[currentEventData].quantity -= itemQuantity;
+            displayItems(globalJSON);
+        }
+    else{}
+
+    
 
 }
 //expend end
+
+
+
+
+//change
+
+function changeJS(event)
+{
+    // Get the data-id
+    const currentEvent = event.target;
+    const currentEventData = currentEvent.getAttribute('data-id');
+
+    // Get the quantity
+    const itemQuantity = parseInt(currentEvent.value, 10)
+    //console.log(itemQuantity)
+    //console.log(currentEventData)
+
+
+    if (!isNaN(itemQuantity))
+        {
+
+            const currentDate = new Date();
+            const formattedDate = currentDate.toISOString().split('T')[0]; // Get YYYY-MM-DD
+
+            // Write transaction object
+            transactionItem = 
+            {
+                itemID: currentEventData,
+                name: globalJSON.items[currentEventData].name,
+                timestamp: formattedDate,
+                quantity: itemQuantity,
+                type: 'change'
+            }
+
+            // Write to transactions array
+            globalJSON.transactions.push(transactionItem); 
+
+            globalJSON.items[currentEventData].quantity = itemQuantity;
+            displayItems(globalJSON);
+        }
+    else{}
+}
+
+
+//change end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //download
 function downloadJSON() {
@@ -173,6 +351,9 @@ function downloadJSON() {
     document.body.appendChild(link);
     link.click(); // Programmatically click the link to trigger the download
     document.body.removeChild(link); // Clean up
+
+    // Reload page so no variables will conflict
+    window.location.reload(true);
 
 }
 

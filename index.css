@@ -1,9 +1,10 @@
 body, html {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     width: 100%;
-    /* justify-items: center; */
 }
 
 
@@ -11,20 +12,27 @@ body, html {
 h1 {
     color: red;
     text-align: center;
-    font-size:xx-large;
+    font-size:xxx-large;
+    outline: 2px red solid;
 }
 
 
 #uploadBar{
     text-align: center;
+    outline: 2px red solid;
 }
 
+#uploadBar input[type="file"],
+#uploadBar button {
+    font-size: x-large;
+}
 
 #display{
     font-size: xx-large;
     margin: 200px;
     display: flex;
     justify-content: center;
+    outline: 2px red solid;
 }
 
 table, td, th{
@@ -38,14 +46,7 @@ label{
 }
 
 
-#easteregg{
-    display: flex;
-    justify-content: space-between;
-}
 
-#eastereggText{
-    color: white;
-}
 
 
 
@@ -55,8 +56,25 @@ label{
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    outline: 2px red solid;
  }
+
+#download button{
+    font-size: x-large;
+}
+
+#easteregg{
+    display: flex;
+    justify-content: space-between;
+    outline: 2px red solid;
+    margin-top: 195px;
+}
+
+
+#eastereggText{
+    color: white;
+}
+
 footer{
     font-size: 25px;
-    margin-top: 200px;
 }
