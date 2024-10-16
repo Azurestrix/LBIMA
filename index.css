@@ -5,7 +5,7 @@ body, html {
     margin: 0;
     padding: 0;
     width: auto;
-    min-height: 100vh; /* viewport height/width */
+    min-height: auto; /* viewport height/width */
 }
 
 
@@ -13,20 +13,25 @@ body, html {
 h1 {
     color: red;
     text-align: center;
-    font-size: 4vw;
+    font-size: auto;
     outline: 2px red solid;
 }
 
 
 #uploadBar{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     outline: 2px red solid;
 }
 
-#uploadBar input[type="file"],
-#uploadBar button {
-    font-size: 2vw;
+#uploadBar input[type="file"]{
+    min-width: 25vh;
+    outline: 2px red solid;
 }
+#uploadBar button {
+    min-width: 25vh;
+} 
 
 #display{
     font-size: 1vw;
@@ -83,9 +88,6 @@ label{
     outline: 2px red solid;
  }
 
-#download button{
-    font-size: 4vw;
-}
 
 #easteregg{
     display: flex;
@@ -99,6 +101,3 @@ label{
     color: white;
 }
 
-footer{
-    font-size: 2vw;
-}
