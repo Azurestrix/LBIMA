@@ -88,6 +88,7 @@ function displayItems(globalJSON){
          intakeInput.classList.add('intakecell');
          intakeInput.setAttribute('type', 'number');
          intakeInput.setAttribute('data-id', item.id);
+         intakeInput.setAttribute('min', 0);
          intakeInput.addEventListener('blur', function(event)
         {
                 intakeJS(event);
@@ -101,6 +102,7 @@ function displayItems(globalJSON){
          expendInput.classList.add('expendcell');
          expendInput.setAttribute('type', 'number'); 
          expendInput.setAttribute('data-id', item.id);
+         expendInput.setAttribute('min', 0);
          expendInput.addEventListener('blur', function(event)
         {
                 expendJS(event);
@@ -113,6 +115,7 @@ function displayItems(globalJSON){
          changeInput.classList.add('changecell');
          changeInput.setAttribute('type', 'number');
          changeInput.setAttribute('data-id', item.id);
+         changeInput.setAttribute('min', 0);
          changeInput.addEventListener('blur', function(event)
          {
             changeJS(event);
