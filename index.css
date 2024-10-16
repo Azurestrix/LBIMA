@@ -1,10 +1,11 @@
 body, html {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: auto;
+    min-height: 100vh; /* viewport height/width */
 }
 
 
@@ -12,7 +13,7 @@ body, html {
 h1 {
     color: red;
     text-align: center;
-    font-size:xxx-large;
+    font-size: 4vw;
     outline: 2px red solid;
 }
 
@@ -24,25 +25,44 @@ h1 {
 
 #uploadBar input[type="file"],
 #uploadBar button {
-    font-size: x-large;
+    font-size: 2vw;
 }
 
 #display{
-    font-size: xx-large;
-    margin: 200px;
+    font-size: 3vw;
     display: flex;
     justify-content: center;
     outline: 2px red solid;
 }
 
 table, td, th{
-    padding: 10px;
-    margin: 1px;
-    border: 3px solid black; 
+    padding: 0;
+    margin: 0;
+    table-layout: auto;
+    width: min-content;
+    border: 1px solid black; 
+}
+
+.intakecell{
+    border: solid green;
+}
+
+.expendcell{
+    border: solid red;
+}
+
+.changecell{
+    border: solid yellow;    
+}
+
+input{
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 label{
-    font-size: xx-large;
+    font-size: 4vw;
 }
 
 
@@ -53,21 +73,21 @@ label{
 /* menu ends roughly*/
 
  #download{
-    margin-top: 100px;
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
     outline: 2px red solid;
  }
 
 #download button{
-    font-size: x-large;
+    font-size: 4vw;
 }
 
 #easteregg{
     display: flex;
     justify-content: space-between;
     outline: 2px red solid;
-    margin-top: 195px;
+    margin-top: 1vh;
 }
 
 
@@ -76,5 +96,5 @@ label{
 }
 
 footer{
-    font-size: 25px;
+    font-size: 2vw;
 }

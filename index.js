@@ -85,6 +85,7 @@ function displayItems(globalJSON){
          // Create intake for current item cell 
          const intakeCell = document.createElement('td');
          const intakeInput = document.createElement('input');
+         intakeInput.classList.add('intakecell');
          intakeInput.setAttribute('type', 'number');
          intakeInput.setAttribute('data-id', item.id);
          intakeInput.addEventListener('blur', function(event)
@@ -97,6 +98,7 @@ function displayItems(globalJSON){
          // Create expend for current item cell 
          const expendCell = document.createElement('td');
          const expendInput = document.createElement('input'); 
+         expendInput.classList.add('expendcell');
          expendInput.setAttribute('type', 'number'); 
          expendInput.setAttribute('data-id', item.id);
          expendInput.addEventListener('blur', function(event)
@@ -108,6 +110,7 @@ function displayItems(globalJSON){
          // Create change value to
          const changeCell = document.createElement('td');
          const changeInput = document.createElement('input');
+         changeInput.classList.add('changecell');
          changeInput.setAttribute('type', 'number');
          changeInput.setAttribute('data-id', item.id);
          changeInput.addEventListener('blur', function(event)
@@ -122,11 +125,12 @@ function displayItems(globalJSON){
          newRow.appendChild(idName);
          newRow.appendChild(quantityCell);
          newRow.appendChild(intakeCell);
-         intakeCell.style.border = 'solid green'
          newRow.appendChild(expendCell);
-         expendCell.style.border = 'solid red'
          newRow.appendChild(changeCell);
-        changeCell.style.border = 'solid yellow'
+
+
+
+
  
          // Append the row to the table body
          displayTable.appendChild(newRow);
